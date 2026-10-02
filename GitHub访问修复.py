@@ -28,7 +28,7 @@ import subprocess
 import sys
 import time
 
-__version__ = "2.0.0"
+__version__ = "2.0.1"
 
 HOSTS = r"C:\Windows\System32\drivers\etc\hosts"
 CURL = os.path.join(os.environ.get("SystemRoot", r"C:\Windows"), "System32", "curl.exe")
@@ -62,8 +62,9 @@ CACHE_DIR = os.path.join(os.environ.get("LOCALAPPDATA", os.path.expanduser("~"))
 CACHE_FILE = os.path.join(CACHE_DIR, "github520_cache.txt")
 
 
-def log(msg):
-    print(msg, flush=True)
+def log(msg, **kw):
+    kw.setdefault("flush", True)
+    print(msg, **kw)
 
 
 # ============================================================
