@@ -29,7 +29,7 @@
 ### 方式 ①：免安装版（推荐，不需要 Python）
 
 1. 打开本仓库的 [Releases 页面](../../releases)；
-2. 下载附件 **`GitHubAccessFix-v2.0.0.exe`**；
+2. 下载附件 **`GitHubAccessFix-v2.0.1.exe`**；
 3. **右键 → 以管理员身份运行**，完成。
 
 > exe 是用 PyInstaller 把 `GitHub访问修复.py` 打包的独立程序，双击即用，不依赖任何已安装环境。
