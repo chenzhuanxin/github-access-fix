@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.png" width="120" alt="github-access-fix"></p>
+
 # GitHub 访问修复工具（国内网络）
 
 一键解决「**GitHub 打不开 / 打开超时 / 时好时坏**」的小工具。v2.0 全新升级：**自动获取并定期更新 GitHub520 列表**，融合 **DoH 实时解析 + GitHub520 + 内置官方 IP 池** 多个来源，探测最快可用 IP 后更新 hosts。**全程无需科学上网，不改任何系统代理设置。**
